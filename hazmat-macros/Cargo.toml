@@ -1,16 +1,12 @@
 [package]
-name = "hazmat"
+name = "hazmat-macros"
 version = "0.0.0"
 authors = ["Jack Grigg <thestr4d@gmail.com>"]
 edition = "2021"
 description = "TBD"
 license = "MIT OR Apache-2.0"
 
-[dependencies]
-hazmat-macros = { path = "hazmat-macros" }
+[lib]
+proc-macro = true
 
-[workspace]
-members = [
-    ".",
-    "hazmat-macros",
-]
+[dependencies]
