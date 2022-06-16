@@ -1,8 +1,3 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+//! A collection of helpers for working with hazardous materials in Rust crates.
+
+pub use hazmat_macros::suit;
