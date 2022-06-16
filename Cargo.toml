@@ -1,6 +1,6 @@
 [package]
 name = "hazmat"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Jack Grigg <thestr4d@gmail.com>"]
 edition = "2021"
 description = "A collection of helpers for working with hazardous materials in Rust crates."
@@ -10,7 +10,7 @@ keywords = ["capability", "implement-only", "safety", "trait"]
 categories = ["rust-patterns"]
 
 [dependencies]
-hazmat-macros = { path = "hazmat-macros" }
+hazmat-macros = { version = "0.1.0", path = "hazmat-macros" }
 
 [workspace]
 members = [

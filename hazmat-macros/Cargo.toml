@@ -1,6 +1,6 @@
 [package]
 name = "hazmat-macros"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Jack Grigg <thestr4d@gmail.com>"]
 edition = "2021"
 description = "Procedural macros for working with hazardous materials in Rust crates."
