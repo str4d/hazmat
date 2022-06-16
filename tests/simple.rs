@@ -20,8 +20,7 @@ mod traits {
     // trait author.
     impl<T: AddOnce> AddTwice for T {
         fn add_twice(self, other: &Self) -> Self {
-            self.add_once(other, AddOnceCap(()))
-                .add_once(other, AddOnceCap(()))
+            self.add_once(other, AddOnceCap).add_once(other, AddOnceCap)
         }
     }
 }

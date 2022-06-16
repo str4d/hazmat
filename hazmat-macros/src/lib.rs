@@ -71,7 +71,8 @@ fn augment_trait(mut t: syn::ItemTrait) -> TokenStream {
     }
 
     quote! {
-        pub struct #cap_name(());
+        #[non_exhaustive]
+        pub struct #cap_name;
 
         #t
     }
