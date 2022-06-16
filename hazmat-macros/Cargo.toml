@@ -3,8 +3,11 @@ name = "hazmat-macros"
 version = "0.0.0"
 authors = ["Jack Grigg <thestr4d@gmail.com>"]
 edition = "2021"
-description = "TBD"
+description = "Procedural macros for working with hazardous materials in Rust crates."
+repository = "https://github.com/str4d/hazmat"
 license = "MIT OR Apache-2.0"
+keywords = ["capability", "implement-only", "safety", "trait"]
+categories = ["rust-patterns"]
 
 [lib]
 proc-macro = true
